@@ -1,0 +1,2 @@
+[SERVER]
+ROOT_DIR = ""
