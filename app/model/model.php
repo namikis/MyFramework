@@ -26,11 +26,14 @@ abstract class model{
         }
     }
 
-    public function select($sql){
+    public function crud($sql, $mode){
+        $rec = null;
         try {
             $stmt = $this->dbh->prepare($sql);
             $stmt->execute();
-            $rec = $stmt->fetchAll();
+            if($mode == "select"){
+                $rec = $stmt->fetchAll();
+            }
         } catch (Exception $e) {
             echo $e->getMessage();
         }

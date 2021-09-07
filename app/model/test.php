@@ -13,6 +13,6 @@ class test extends model{
         $sql = <<< EOF
             select image_name from contents where company_id = 1;
         EOF;
-        return $this->select($sql);
+        return $this->crud($sql, "select");
     }
 }
