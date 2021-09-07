@@ -1,0 +1,9 @@
+[SERVER]
+ROOT_DIR = ""
+
+[DB]
+DB_TYPE = ""
+HOST = ""
+DB_NAME = ""
+USER = ""
+PASSWORD = ""

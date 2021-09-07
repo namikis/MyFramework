@@ -2,7 +2,9 @@
 namespace webroot;
 
 $route_list = array(
-    "/test/aaaa" => "testController@testFunc"
+    "/" => "testController@top",
+    "/test/aaaa" => "testController@testFunc",
+    "/test/db" => "testController@testDB"
 );
 
 function test(){

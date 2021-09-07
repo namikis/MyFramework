@@ -1,2 +1,0 @@
-[SERVER]
-ROOT_DIR = ""
